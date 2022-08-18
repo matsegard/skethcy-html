@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="main.css">
     <title>Sketchy</title>
 </head>
@@ -20,11 +26,23 @@
                     <p>Products</p>
                     <p>Contact</p>
                 </div>
+                <div class="hamburger-icon">
+                    
+                    <span class="material-icons">
+menu
+</span>
+                </div>
             </div>
         </header>
         <main>
             <div>
-                <img class="bike-image" src="/images/biketest.png" alt="bike">
+                
+                <img class="bike-image" src="/images/largebike.jpg" alt="bike">
+  <!-- <picture>
+  <source srcset="/images/largebike.jpg" media="(min-width: 1000px)">
+  <source srcset="/images/bike2.png" media="(min-width: 800px)">
+  <img srcset="/images/bike2.png" alt="…">
+</picture> -->
                 <h1 class="tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum officia sapiente cupiditate neque vero esse, quis ipsum quod! Laudantium nam dolores quis animi blanditiis odio maiores doloribus ut aliquid harum.</h1>
             </div> 
         </main>
@@ -35,8 +53,7 @@
 </div>
 <div class="product-2">
     <img  class="product-img" src="/images/t-shirt.png" alt="t-shirt">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur dolores facilis similique consequuntur. Beatae, impedit repellendus. Odio sapiente reiciendis autem dolores aperiam, facere molestiae officiis voluptates corrupti vero eligendi libero.</p>
-</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, voluptatibus at quos voluptatum officiis vitae quis illum molestiae expedita! Fuga earum nobis maiores libero ipsum quos eligendi, officia praesentium accusamus!</p></div>
         </div>
         <div class="contact-container">
                 <h2>Contact us</h2>
@@ -48,18 +65,45 @@
                         <input type="text" id="lname" name="lname">
                         <label for="text">Text:</label>
                         <textarea id="text" name="text" rows="4" cols="auto"></textarea>
-                        <input id="submit" type="submit">
+                        <input id="submit" type="submit" value="Send">
                     </form>
                 </div>
         </div>
         <footer>
-        <div>
-            <p>footer</p>
-        </div>
-        </footer>
+        <div class="footer1">
+        <ul>
+            <h2>Help</h2>
+<li>Service</li>
+<li>Support</li>
+<li>Warranty</li>
+<li>Contact</li>
+</ul>
+    </div>
+
+            <div class="footer2">
+                <h2>Bikes</h2>
+        <ul>
+<li>Hardtail</li>
+<li>Downhill</li>
+<li>Dirtjumper</li>
+<li>Electric</li>
+</ul>
+    </div>
+
+            <div class="footer3">
+                <h2>About</h2>
+        <ul>
+<li>Work</li>
+<li>Innovation</li>
+<li>Dealers</li>
+<li>Team</li>
+</ul>
+    </div>
+
+ 
         
         
     </div>
-
+</footer>
 </body>
 </html>
