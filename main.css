@@ -1,0 +1,119 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+width: 1440px;
+}
+
+.header-container{
+    height: 5rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E2527; 
+}
+
+.logo-image{
+    width: 12rem;
+}
+
+.logo{
+    display: flex;
+    margin-left: 4rem;
+    width: 12rem;
+} 
+
+ .navbar{
+    display: flex;
+    color: white;
+    width: 20rem;
+    flex-direction: row;
+   flex-direction: space-between;
+    font-family: ;
+}
+
+main{
+height: 600px;
+ position: relative;
+}
+
+.bike-image{
+    width: 1440px;
+} 
+
+.tagline{
+    width: 10rem;
+    z-index: 100;
+    position: absolute;
+  top: 40%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 1.1rem;
+}
+
+.product-container{
+   height: 600px;
+     background-color: #1E2527;
+    display: flex;
+}
+
+.contact-container{
+  background-color: #E05554;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  color: #e8e9ed;
+}
+.contact-container h2{
+    margin-top: 10rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.form input{
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#text{
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    width: 100%;
+} 
+
+label{
+display: flex;
+justify-content: flex-start;
+}
+
+#submit{
+    width: 6rem;
+}
+
+footer{
+    background-color: aqua;
+    width: 100%;
+}
