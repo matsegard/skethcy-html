@@ -43,35 +43,39 @@
 }
 
 main {
-  height: 600px;
+  height: 800px;
   display: flex;
   justify-content: center;
+  background-color: #1e2527;
 }
 
 .bike-image {
-  height: 600px;
+  height: 800px;
   width: 100vw;
+  border-radius: 3px;
 }
 
 .tagline {
-  width: 15rem;
+  width: 80rem;
+  height: 20;
   z-index: 100;
   position: absolute;
-  top: 30%;
-  left: 80%;
+  top: 20%;
+  left: 30%;
   transform: translate(-50%, -50%);
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 .product-container {
   height: 600px;
-  background-color: #1e2527;
+  background-color: #e8e9ec;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #e8e9ed;
+  color: #1e2527;
 }
 
 .product-container p {
@@ -92,11 +96,11 @@ main {
   width: 30rem;
   height: 20rem;
   border-radius: 4px;
-  box-shadow: 1px 2px 6px black;
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
 }
 
 .contact-container {
-  background-color: #e05554;
+  background-color: #1e2527;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -147,8 +151,18 @@ label {
   justify-content: flex-start;
 }
 
+#buy {
+  width: 7rem;
+  height: 1.5rem;
+  border-radius: 4px;
+  border: none;
+  color: #e8e9ed;
+  background-color: #1e2527;
+  margin-top: 0.7rem;
+}
 #submit {
   width: 6rem;
+  margin-top: 1rem;
 }
 
 ul {
@@ -163,6 +177,7 @@ footer {
   background-color: #1e2527;
   height: 400px;
   color: #e8e9ed;
+  border-top: #e8e9ed solid 1px;
 }
 
 footer li {
@@ -190,9 +205,8 @@ footer li {
   .product-img {
     width: 25rem;
     height: 15rem;
-    border-radius: 4px;
-    box-shadow: 1px 2px 6px black;
   }
+
   .logo {
     margin-left: 7rem;
   }
