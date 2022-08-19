@@ -61,7 +61,7 @@ main {
   z-index: 100;
   position: absolute;
   top: 20%;
-  left: 30%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.5rem;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
@@ -217,11 +217,29 @@ footer li {
     color: #e8e9ed;
     margin-right: 7rem;
   }
+  .tagline {
+    width: 60rem;
+    height: 20;
+    z-index: 100;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .logo {
     margin-left: 5rem;
+  }
+  .product-container {
+    height: 500px;
+  }
+  .contact-container {
+    height: 500px;
   }
 
   .navbar {
@@ -244,6 +262,26 @@ footer li {
     width: 20rem;
     height: 13rem;
   }
+  .bike-image {
+    height: 400px;
+    width: 100vw;
+    border-radius: 3px;
+  }
+  main {
+    height: 400px;
+  }
+  .tagline {
+    width: 48rem;
+    height: 20;
+    z-index: 100;
+    position: absolute;
+    top: 14%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -262,6 +300,18 @@ footer li {
   }
   .product-container p {
     font-size: 0.9rem;
+  }
+  .tagline {
+    width: 42rem;
+    height: 20;
+    z-index: 100;
+    position: absolute;
+    top: 14%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+    color: white;
   }
 }
 
@@ -288,9 +338,33 @@ footer li {
   .footer3 {
     margin-left: 7rem;
   }
+  .tagline {
+    width: 33rem;
+    height: 20;
+    z-index: 100;
+    position: absolute;
+    top: 14%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
 }
 
 @media only screen and (max-width: 640px) {
+  .tagline {
+    width: 26rem;
+    height: 20;
+    z-index: 100;
+    position: absolute;
+    top: 16%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
   .hamburger-icon {
     display: flex;
   }
@@ -337,9 +411,28 @@ footer li {
   .product-container p {
     font-size: 0.7rem;
   }
+  .bike-image {
+    margin-top: 3rem;
+    height: 320px;
+    width: 500px;
+    border-radius: 3px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .tagline {
+    width: 22rem;
+    height: 20;
+    z-index: 100;
+    position: absolute;
+    top: 17%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 0.9rem;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+
   .product-1 {
     width: 11rem;
     margin: 1rem;
@@ -368,6 +461,12 @@ footer li {
   .footer3 {
     margin-left: 2rem;
   }
+  .bike-image {
+    margin-top: 3rem;
+    height: 300px;
+    width: 420px;
+    border-radius: 3px;
+  }
 }
 
 @media only screen and (max-width: 440px) {
@@ -383,5 +482,23 @@ footer li {
   .product-img {
     width: 9rem;
     height: 6rem;
+  }
+  .bike-image {
+    margin-top: 3rem;
+    height: 280px;
+    width: 400px;
+    border-radius: 3px;
+  }
+  .tagline {
+    width: 18rem;
+    height: 20;
+    z-index: 100;
+    position: absolute;
+    top: 17%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 0.7rem;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+    color: white;
   }
 }
